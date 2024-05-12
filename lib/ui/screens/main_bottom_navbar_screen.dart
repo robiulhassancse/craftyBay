@@ -2,8 +2,7 @@ import 'package:ecommerce/ui/screens/cart_list_details_screen.dart';
 import 'package:ecommerce/ui/screens/category_list_screen.dart';
 import 'package:ecommerce/ui/screens/home_screen.dart';
 import 'package:ecommerce/ui/screens/wish_list_screen.dart';
-import 'package:ecommerce/ui/state_holders/main_bottom_nav_controller.dart';
-import 'package:ecommerce/ui/widgets/home/product_details.dart';
+import 'package:ecommerce/state_holders/main_bottom_nav_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -16,7 +16,7 @@ class _HomeSliderState extends State<HomeSlider> {
       children: [
         CarouselSlider(
           options: CarouselOptions(
-              height: 200.0,
+              height: 180.0,
               autoPlay: true,
               autoPlayInterval: const Duration(seconds: 4),
               onPageChanged: (int page, _) {
@@ -28,7 +28,7 @@ class _HomeSliderState extends State<HomeSlider> {
                 return Container(
                     width: MediaQuery.of(context).size.width,
                     margin: const EdgeInsets.symmetric(horizontal: 5.0),
-                    decoration: const BoxDecoration(color: Colors.amber),
+                    decoration: BoxDecoration(color: Colors.amber,borderRadius: BorderRadius.circular(8)),
                     alignment: Alignment.center,
                     child: Text(
                       'text $i',
@@ -52,7 +52,7 @@ class _HomeSliderState extends State<HomeSlider> {
                   margin: const EdgeInsets.symmetric(horizontal: 4),
                   decoration: BoxDecoration(
                     border: Border.all(
-                      color: Colors.grey,
+                      color: value == i ? Colors.green : Colors.grey,
                     ),
                     borderRadius: BorderRadius.circular(20),
                     color: value == i ? Colors.green : null,

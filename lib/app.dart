@@ -2,7 +2,7 @@ import 'package:ecommerce/ui/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../ui/state_holders/state_holder_binder.dart';
+import 'state_holder_binder.dart';
 
 class CraftyBay extends StatelessWidget {
   const CraftyBay({super.key});
